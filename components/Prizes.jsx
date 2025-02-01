@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import Faq from './Faq'
 
 const Prizes = () => {
-    
+
     const handleScrollToFaqs = () => {
         const faqstart = document.querySelector("#faqheader");
         if (faqstart) {
@@ -13,7 +13,9 @@ const Prizes = () => {
     }
 
     return (
-        <div className='bg-[#1E002E]'>
+        <div
+            id='prizes'
+            className='bg-[#1E002E]'>
 
             <div className='flex justify-center relative text-[60px] sm:text-[120px] md:text-[180px] xl:text-[280px] tracking-tight font-extrabold text-[#6B5E77] mb-[80px]'>
                 PRIZES
@@ -24,9 +26,9 @@ const Prizes = () => {
             <div className='flex flex-col lg:flex-row gap-[120px] items-center lg:justify-center'>
                 <div className='flex flex-col items-center justify-between h-[344px] w-[295px] bg-white cursor-pointer pb-[30px] pt-[70px] rounded-xl relative hover:translate-y-[-30px] transition-all'>
                     <div className='absolute top-[-65px]'>
-                        <img src='first.png'/>
+                        <img src='first.png' />
                     </div>
-                        <div className='text-[24px] font-extrabold'>
+                    <div className='text-[24px] font-extrabold'>
                         First Prize
                     </div>
                     <div className='flex flex-col items-center text-[16px] font-medium text-[#5B5C5C]'>
@@ -40,9 +42,9 @@ const Prizes = () => {
 
                 <div className='flex flex-col items-center justify-between h-[344px] w-[295px] bg-white cursor-pointer pb-[30px] pt-[70px] rounded-xl relative hover:translate-y-[-30px] transition-all'>
                     <div className='absolute top-[-65px]'>
-                        <img src='second.png'/>
+                        <img src='second.png' />
                     </div>
-                        <div className='text-[24px] font-extrabold'>
+                    <div className='text-[24px] font-extrabold'>
                         Second Prize
                     </div>
                     <div className='flex flex-col items-center text-[16px] font-medium text-[#5B5C5C]'>
@@ -56,9 +58,9 @@ const Prizes = () => {
 
                 <div className='flex flex-col items-center justify-between h-[344px] w-[295px] bg-white cursor-pointer pb-[30px] pt-[70px] rounded-xl relative hover:translate-y-[-30px] transition-all'>
                     <div className='absolute top-[-65px]'>
-                        <img src='third.png'/>
+                        <img src='third.png' />
                     </div>
-                        <div className='text-[24px] font-extrabold'>
+                    <div className='text-[24px] font-extrabold'>
                         Third Prize
                     </div>
                     <div className='flex flex-col items-center text-[16px] font-medium text-[#5B5C5C]'>
